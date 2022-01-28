@@ -1,18 +1,170 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    font-family: 'Atkinson Hyperlegible', Tahoma, sans-serif;
+  font-family: "Atkinson Hyperlegible", Tahoma, sans-serif;
+  background-color: #000;
 }
 
-input, button {
-    font-family: inherit;
+.dnone {
+  display: none !important;
+}
+
+.hidden {
+    transform: translateX(100vw);
+    height: 100vh;
+}
+
+.main-container {
+  margin: auto;
+  max-width: 70ch;
+  overflow: hidden;
+  display: grid;
+  background-color: snow;
+}
+
+.main-container > * {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+input,
+button {
+  font-family: inherit;
 }
 
 /*****************/
 
+#header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  background-color: #222;
+  font-size: 1.25rem;
+}
+
+#header * {
+  font-size: inherit;
+}
+
+input {
+  display: block;
+  margin: 1em auto;
+  padding: 0.25em 0.5em;
+  grid-column: 2 / 3;
+}
+
+#header button {
+  padding: 0.25em 0.5em;
+}
+
+#previousDept {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+#nextDept {
+  grid-column: 3 / 4;
+}
+
+#results {
+  list-style: none;
+  transition: all .7s;
+}
+
+#results li {
+  padding: 0.5em 0.75em;
+  border: 1px solid #222;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 10em;
+  margin: 0.5em;
+  transition: all .3s;
+}
+
+#results li:hover {
+    transform: translateX(1em);
+    background-color: pink;
+    cursor: pointer;
+}
+
+.result_numero {
+  width: 3em;
+}
+
+.result_departement {
+  flex: 1;
+  min-width: max-content;
+  margin-right: 1em;
+}
+
+/* Dept view */
+#deptView {
+    transition: all .7s;
+}
+
+.deptContainer {
+  padding: calc(1em + 2vw);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.departement {
+  grid-column: 1 / 3;
+  border-bottom: 2px solid #111;
+  line-height: 1;
+}
+
+.numero {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  justify-self: end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #555;
+  width: 2.25em;
+  height: 2.25em;
+  font-size: 1.25rem;
+  background-color: #fff5;
+}
+
+.map {
+  grid-column: 1 / 4;
+  grid-row: 5 / 6;
+  display: block;
+  margin-top: 1em;
+  border: 1px solid #222;
+  justify-self: center;
+  max-width: 100%;
+}
+
+.region {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  margin: 0.5em 0 1em;
+}
+
+.villes {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  gap: 3px;
+}
+
+.ville {
+  border: 1px solid #222;
+  padding: 0.25em 0.75em;
+  background-color: #fff5;
+}
+
+.chef_lieu {
+  background-color: #222;
+  color: snow;
+}

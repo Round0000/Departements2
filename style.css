@@ -59,6 +59,7 @@ input {
   margin: 1em auto;
   padding: 0.25em 0.5em;
   grid-column: 2 / 3;
+  max-width: 40vw;
 }
 
 #header button {

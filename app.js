@@ -61,6 +61,7 @@ function displayDept(dept) {
   const chef = document.createElement("P");
   chef.classList.add("ville", "chef_lieu");
   chef.innerText = dept.chef_lieu;
+  uiVilles.appendChild(chef);
 
   dept.villes.forEach((ville) => {
     const el = document.createElement("P");

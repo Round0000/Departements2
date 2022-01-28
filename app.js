@@ -7,7 +7,9 @@ fetch("data/departements.json")
   });
 
 function displayDept(num) {
-  return data.find(dept => dept.numero == num);
+  return data.find((dept) => dept.numero == num);
 }
 
-console.log(displayDept(12));
+userInput.addEventListener("change", (e) => {
+  console.log(displayDept(e.target.value));
+});

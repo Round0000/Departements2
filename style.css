@@ -23,10 +23,12 @@ body, html {
   transform: translateX(100%) !important;
   height: 100vh;
   opacity: 0;
+  visibility: hidden;
 }
 
 .invisible {
   opacity: 0;
+  visibility: hidden;
 }
 
 .main-container {
@@ -71,8 +73,8 @@ input {
 }
 
 #header button {
-  width: 2em;
-  height: 2em;
+  width: 2.25em;
+  height: 2.25em;
   border: none;
   background-color: snow;
   border-radius: 100%;
@@ -120,7 +122,8 @@ input {
   transition: all 0.3s;
 }
 
-#results li:hover {
+#results li:hover,
+#results li:focus {
   transform: translateX(0.5em);
   background-color: pink;
   cursor: pointer;

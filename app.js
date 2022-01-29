@@ -37,6 +37,7 @@ function displayResults(results) {
   results.forEach((res) => {
     const li = document.createElement("LI");
     li.dataset.index = data.indexOf(res);
+    li.tabIndex = 0;
     li.innerHTML = `
       <span class="result_numero">${res.numero}</span>
       <span class="result_departement">${res.departement}</span>

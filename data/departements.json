@@ -580,11 +580,11 @@
       "chef_lieu": "Blois",
       "villes": ["Vendôme", "Romorantin-Lanthenay"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Le Château de Chambord" },
+        { "number": "2", "caption": "Vendôme" },
+        { "number": "3", "caption": "Blois" },
+        { "number": "4", "caption": "Romorantin-Lanthenay" },
+        { "number": "5", "caption": "Escalier Denis-Papin de Blois" }
       ]
     },
     {
@@ -594,11 +594,11 @@
       "chef_lieu": "Saint-Étienne",
       "villes": ["Montbrison", "Roanne"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Saint-Étienne, place Jean-Jaurès" },
+        { "number": "2", "caption": "Eglise Prieurale Saint Martin à Ambierle" },
+        { "number": "3", "caption": "L’abbaye bénédictine de Charlieu et le couvent des Cordeliers" },
+        { "number": "4", "caption": "Montbrison" },
+        { "number": "5", "caption": "Hôtel de ville de Roanne" }
       ]
     },
     {
@@ -608,11 +608,11 @@
       "chef_lieu": "Le Puy-en-Velay",
       "villes": ["Brioude", "Yssingeaux"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Le Puy-en-Velay" },
+        { "number": "2", "caption": "Brioude" },
+        { "number": "3", "caption": "Le Pic du Lizieux" },
+        { "number": "4", "caption": "La Cascade de la Beaume, au nord d’Arlempdes" },
+        { "number": "5", "caption": "Blesle" }
       ]
     },
     {
@@ -622,11 +622,11 @@
       "chef_lieu": "Nantes",
       "villes": ["Saint-Nazaire", "Châteaubriant"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Les Machines de l'île à Nantes" },
+        { "number": "2", "caption": "La Baule" },
+        { "number": "3", "caption": "Le port de Nantes-Saint-Nazaire" },
+        { "number": "4", "caption": "Le château de Clisson" },
+        { "number": "5", "caption": "Marais de Brière" }
       ]
     },
     {
@@ -636,11 +636,11 @@
       "chef_lieu": "Orléans",
       "villes": ["Montargis", "Pithiviers"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Orléans" },
+        { "number": "2", "caption": "Montargis" },
+        { "number": "3", "caption": "Yèvre-le-Châtel" },
+        { "number": "4", "caption": "Beaugency" },
+        { "number": "5", "caption": "Olivet" }
       ]
     },
     {
@@ -650,11 +650,11 @@
       "chef_lieu": "Cahors",
       "villes": ["Figeac", "Gourdon"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Le Pont Valentré à Cahor" },
+        { "number": "2", "caption": "Rocamadour" },
+        { "number": "3", "caption": "Saint-Cirq-Lapopie" },
+        { "number": "4", "caption": "Autoire" },
+        { "number": "5", "caption": "Marcilhac-sur-Célé" }
       ]
     },
     {

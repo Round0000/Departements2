@@ -9,7 +9,7 @@ fetch("./data/departements.json")
   .then((response) => response.json())
   .then((res) => {
     data = res;
-    displayResults(getResults(''));
+    displayResults(getResults(""));
   });
 
 function getResults(q) {
@@ -123,8 +123,6 @@ uiPrevDeptBtn.addEventListener("click", (e) => {
 
 uiNextDeptBtn.addEventListener("click", (e) => {
   const newIndex = Number(uiDeptView.dataset.index) + 1;
-
-  console.log('%capp.js line:125 newIndex', 'color: #007acc;', newIndex);
 
   if (newIndex === data.length) return;
 

@@ -54,6 +54,7 @@ function displayDept(dept) {
   uiDeptView.querySelector(".numero").innerText = dept.numero;
   uiDeptView.querySelector(".region").innerText = dept.region;
 
+  uiGal.classList.add("invisible");
   const uiVilles = uiDeptView.querySelector(".villes");
   uiVilles.innerHTML = "";
   uiGal.innerHTML = `<div class="map"><img src="./data/maps/${dept.numero}.svg" loading="lazy" alt="Le département situé sur une carte" /></div>`;
@@ -78,17 +79,14 @@ function displayDept(dept) {
         <figcaption>${img.caption}</figcaption>
       `;
     uiDeptView.querySelector(".gallery").appendChild(fig);
+    setTimeout(() => {
+      fig.classList.remove("invisible");
+    }, 1200 + img.number * 200);
   });
 
-  uiGal.querySelector(".map img").onload = () => {
+  setTimeout(() => {
     uiGal.classList.remove("invisible");
-  };
-
-  uiGal.querySelectorAll("figure img").forEach((img) => {
-    img.onload = () => {
-      img.parentElement.classList.remove("invisible");
-    };
-  });
+  }, 1200);
 
   uiResults.classList.add("hidden");
   uiDeptView.classList.remove("hidden");

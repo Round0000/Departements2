@@ -31,7 +31,7 @@ body, html {
 
 .main-container {
   margin: auto;
-  max-width: 70ch;
+  max-width: 90ch;
   overflow: hidden;
   display: grid;
   background-color: snow;
@@ -175,7 +175,7 @@ input {
   display: grid;
   gap: .5em;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  transition: opacity .5s;
+  transition: opacity .7s;
 }
 
 .map {
@@ -193,6 +193,7 @@ input {
   outline: 1px solid #222;
   outline-offset: -1px;
   position: relative;
+  transition: opacity .7s;
 }
 
 .gallery figure img {

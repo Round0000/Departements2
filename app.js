@@ -58,7 +58,7 @@ function displayDept(dept) {
   const uiVilles = uiDeptView.querySelector(".villes");
   uiVilles.innerHTML = "";
   const uiGal = uiDeptView.querySelector(".gallery");
-  uiGal.innerHTML = `<div class="map"><img src="./data/maps/${dept.numero}.svg" alt="Le département situé sur une carte" /></div>`;
+  uiGal.innerHTML = `<div class="map"><img src="./data/maps/${dept.numero}.svg" loading="lazy" alt="Le département situé sur une carte" /></div>`;
 
   const chef = document.createElement("P");
   chef.classList.add("ville", "chef_lieu");
@@ -75,7 +75,7 @@ function displayDept(dept) {
   dept.images.forEach((img) => {
     const fig = document.createElement("figure");
     fig.innerHTML = `
-        <img src="./data/gallery/${dept.numero}-${img.number}.JPG" alt="${img.caption}" />
+        <img src="./data/gallery/${dept.numero}-${img.number}.JPG" loading="lazy" alt="${img.caption}" />
         <figcaption>${img.caption}</figcaption>
       `;
     uiDeptView.querySelector(".gallery").appendChild(fig);

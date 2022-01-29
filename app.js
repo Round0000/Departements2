@@ -47,7 +47,11 @@ function displayResults(results) {
     uiResults.appendChild(li);
 
     uiDeptView.classList.add("hidden");
-    uiResults.classList.remove("hidden");
+    uiResults.classList.remove("dnone");
+    setTimeout(() => {
+      uiDeptView.classList.add("dnone");
+      uiResults.classList.remove("hidden");
+    }, 500);
   });
 }
 
@@ -95,7 +99,13 @@ function displayDept(dept, index) {
   }, 1200);
 
   uiResults.classList.add("hidden");
-  uiDeptView.classList.remove("hidden");
+  uiDeptView.classList.remove("dnone");
+  setTimeout(() => {
+    uiResults.classList.add("dnone");
+    uiDeptView.classList.remove("hidden");
+  }, 500);
+
+  backToTop.click();
 }
 
 uiUserInput.addEventListener("keyup", (e) => {

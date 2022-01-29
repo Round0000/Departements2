@@ -3,6 +3,7 @@ let data;
 const uiUserInput = document.getElementById("userInput");
 const uiResults = document.getElementById("results");
 const uiDeptView = document.getElementById("deptView");
+const uiGal = uiDeptView.querySelector(".gallery");
 
 fetch("./data/departements.json")
   .then((response) => response.json())
@@ -14,8 +15,6 @@ function getResults(q) {
   q = q.toUpperCase();
 
   let results = [];
-
-  console.clear();
 
   data.forEach((item) => {
     if (
@@ -57,7 +56,6 @@ function displayDept(dept) {
 
   const uiVilles = uiDeptView.querySelector(".villes");
   uiVilles.innerHTML = "";
-  const uiGal = uiDeptView.querySelector(".gallery");
   uiGal.innerHTML = `<div class="map"><img src="./data/maps/${dept.numero}.svg" loading="lazy" alt="Le département situé sur une carte" /></div>`;
 
   const chef = document.createElement("P");
@@ -74,11 +72,22 @@ function displayDept(dept) {
 
   dept.images.forEach((img) => {
     const fig = document.createElement("figure");
+    fig.classList.add("invisible");
     fig.innerHTML = `
-        <img src="./data/gallery/${dept.numero}-${img.number}.JPG" loading="lazy" alt="${img.caption}" />
+        <img src="./data/gallery/mini/${dept.numero}-${img.number}.JPG" loading="lazy" alt="${img.caption}" />
         <figcaption>${img.caption}</figcaption>
       `;
     uiDeptView.querySelector(".gallery").appendChild(fig);
+  });
+
+  uiGal.querySelector(".map img").onload = () => {
+    uiGal.classList.remove("invisible");
+  };
+
+  uiGal.querySelectorAll("figure img").forEach((img) => {
+    img.onload = () => {
+      img.parentElement.classList.remove("invisible");
+    };
   });
 
   uiResults.classList.add("hidden");

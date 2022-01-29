@@ -9,7 +9,6 @@
 body {
   font-family: "Atkinson Hyperlegible", Tahoma, sans-serif;
   background-color: #000;
-  overflow-x: hidden;
 }
 
 .dnone {
@@ -39,7 +38,7 @@ body {
   display: grid;
   background-color: snow;
   outline: 1px solid snow;
-  outline-offset: 3px;
+  outline-offset: 5px;
   width: 90%;
   padding: calc(0.5em + 2vw);
   min-width: 300px;
@@ -123,7 +122,7 @@ button {
 
 #results {
   list-style: none;
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 
 #results li {
@@ -165,7 +164,7 @@ button {
 
 /* Dept view */
 #deptView {
-  transition: all 0.7s;
+  transition: all 0.5s;
 }
 
 .deptContainer {

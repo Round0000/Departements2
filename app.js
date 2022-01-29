@@ -81,7 +81,7 @@ function displayDept(dept, index) {
     const fig = document.createElement("figure");
     fig.classList.add("invisible");
     fig.innerHTML = `
-        <img src="./data/gallery/mini/${dept.numero}-${img.number}.JPG" alt="${img.caption}" />
+        <img src="./data/gallery/${dept.numero}-${img.number}.JPG" alt="${img.caption}" />
         <figcaption>${img.caption}</figcaption>
       `;
     uiDeptView.querySelector(".gallery").appendChild(fig);

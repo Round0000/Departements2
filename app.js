@@ -9,6 +9,7 @@ fetch("./data/departements.json")
   .then((response) => response.json())
   .then((res) => {
     data = res;
+    displayResults(getResults(''));
   });
 
 function getResults(q) {
@@ -49,7 +50,11 @@ function displayResults(results) {
   });
 }
 
-function displayDept(dept) {
+function displayDept(dept, index) {
+  uiDeptView.dataset.index = index;
+
+  uiDeptView.classList.add("hidden");
+
   uiDeptView.querySelector(".departement").innerText = dept.departement;
   uiDeptView.querySelector(".numero").innerText = dept.numero;
   uiDeptView.querySelector(".region").innerText = dept.region;
@@ -100,6 +105,29 @@ uiResults.addEventListener("click", (e) => {
   if (e.target.closest("li")) {
     const query = e.target.closest("li").dataset.index;
 
-    displayDept(data[query]);
+    displayDept(data[query], query);
   }
 });
+
+const uiPrevDeptBtn = document.getElementById("previousDept");
+const uiNextDeptBtn = document.getElementById("nextDept");
+
+uiPrevDeptBtn.addEventListener("click", (e) => {
+  const newIndex = uiDeptView.dataset.index - 1;
+
+  if (newIndex < 0) return;
+
+  displayDept(data[newIndex], newIndex);
+});
+
+uiNextDeptBtn.addEventListener("click", (e) => {
+  const newIndex = Number(uiDeptView.dataset.index) + 1;
+
+  console.log('%capp.js line:125 newIndex', 'color: #007acc;', newIndex);
+
+  if (newIndex === data.length) return;
+
+  displayDept(data[newIndex], newIndex);
+});
+
+// Initial display

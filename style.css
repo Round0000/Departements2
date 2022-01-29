@@ -12,10 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
-  scroll-behavior: smooth;
-}
-
 .dnone {
   display: none !important;
 }
@@ -100,6 +96,7 @@ button {
 
 #header button span {
   position: absolute;
+  top: -999px;
   width: 0;
   height: 0;
   opacity: 0;

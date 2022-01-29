@@ -748,11 +748,11 @@
       "chef_lieu": "Laval",
       "villes": ["Château-Gontier-sur-Mayenne", "Mayenne"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Musée Robert Tatin à Cossé-le-Vivien" },
+        { "number": "2", "caption": "Laval" },
+        { "number": "3", "caption": "Le Château du Rocher à Mézangers" },
+        { "number": "4", "caption": "Chailland" },
+        { "number": "5", "caption": "Sainte-Suzanne" }
       ]
     },
     {
@@ -762,11 +762,11 @@
       "chef_lieu": "Nancy",
       "villes": ["Briey", "Lunéville", "Toul"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Nancy" },
+        { "number": "2", "caption": "Briey" },
+        { "number": "3", "caption": "Lunéville" },
+        { "number": "4", "caption": "Lac de Pierre-Percée" },
+        { "number": "5", "caption": "Hôtel de ville de Baccarat" }
       ]
     },
     {
@@ -774,28 +774,56 @@
       "departement": "Meuse",
       "region": "Grand Est",
       "chef_lieu": "Bar-le-Duc",
-      "villes": ["Commercy", "Verdun"]
+      "villes": ["Commercy", "Verdun"],
+      "images": [
+        { "number": "1", "caption": "Bar-le-Duc" },
+        { "number": "2", "caption": "L’Ossuaire de Douaumont près de Verdun" },
+        { "number": "3", "caption": "Citadelle de Montmédy" },
+        { "number": "4", "caption": "Lac de Madine" },
+        { "number": "5", "caption": "Beaulieu-en-Argonne" }
+      ]
     },
     {
       "numero": 56,
       "departement": "Morbihan",
       "region": "Bretagne",
       "chef_lieu": "Vannes",
-      "villes": ["Lorient", "Pontivy"]
+      "villes": ["Lorient", "Pontivy"],
+      "images": [
+        { "number": "1", "caption": "Vannes" },
+        { "number": "2", "caption": "Lorient" },
+        { "number": "3", "caption": "Pontivy" },
+        { "number": "4", "caption": "Alignements de Carnac" },
+        { "number": "5", "caption": "Île d'Arz" }
+      ]
     },
     {
       "numero": 57,
       "departement": "Moselle",
       "region": "Grand Est",
       "chef_lieu": "Metz",
-      "villes": ["Forbach", "Sarrebourg", "Sarreguemines", "Thionville"]
+      "villes": ["Forbach", "Sarrebourg", "Sarreguemines", "Thionville"],
+      "images": [
+        { "number": "1", "caption": "Metz" },
+        { "number": "2", "caption": "Rocher de Dabo" },
+        { "number": "3", "caption": "Sarreguemines" },
+        { "number": "4", "caption": "Thionville" },
+        { "number": "5", "caption": "Lutzelbourg" }
+      ]
     },
     {
       "numero": 58,
       "departement": "Nièvre",
       "region": "Bourgogne-Franche-Comté",
       "chef_lieu": "Nevers",
-      "villes": ["Château-Chinon", "Clamecy", "Cosne-Cours-sur-Loire"]
+      "villes": ["Château-Chinon", "Clamecy", "Cosne-Cours-sur-Loire"],
+      "images": [
+        { "number": "1", "caption": "Nevers" },
+        { "number": "2", "caption": "Château-Chinon" },
+        { "number": "3", "caption": "Clamecy" },
+        { "number": "4", "caption": "La Charité-sur-Loire" },
+        { "number": "5", "caption": "Lac des Settons" }
+      ]
     },
     {
       "numero": 59,
@@ -808,6 +836,13 @@
         "Douai",
         "Dunkerque",
         "Valenciennes"
+      ],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
       ]
     },
     {
@@ -815,14 +850,28 @@
       "departement": "Oise",
       "region": "Hauts-de-France",
       "chef_lieu": "Beauvais",
-      "villes": ["Clermont", "Compiègne", "Senlis"]
+      "villes": ["Clermont", "Compiègne", "Senlis"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 61,
       "departement": "Orne",
       "region": "Normandie",
       "chef_lieu": "Alençon",
-      "villes": ["Argentan", "Mortagne-au-Perche"]
+      "villes": ["Argentan", "Mortagne-au-Perche"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 62,
@@ -836,6 +885,13 @@
         "Saint-Omer",
         "Calais",
         "Lens"
+      ],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
       ]
     },
     {
@@ -843,21 +899,42 @@
       "departement": "Puy-de-Dôme",
       "region": "Auvergne-Rhône-Alpes",
       "chef_lieu": "Clermont-Ferrand",
-      "villes": ["Ambert", "Issoire", "Riom", "Thiers"]
+      "villes": ["Ambert", "Issoire", "Riom", "Thiers"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 64,
       "departement": "Pyrénées-Atlantiques",
       "region": "Nouvelle-Aquitaine",
       "chef_lieu": "Pau",
-      "villes": ["Bayonne", "Oloron-Sainte-Marie"]
+      "villes": ["Bayonne", "Oloron-Sainte-Marie"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 65,
       "departement": "Hautes-Pyrénées",
       "region": "Occitanie",
       "chef_lieu": "Tarbes",
-      "villes": ["Argelès-Gazost", "Bagnères-de-Bigorre"]
+      "villes": ["Argelès-Gazost", "Bagnères-de-Bigorre"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 66,

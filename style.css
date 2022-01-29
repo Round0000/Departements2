@@ -43,6 +43,7 @@ body, html {
   width: 90%;
   padding: calc(.5em + 2vw);
   min-width: 300px;
+  height: max-content;
 }
 
 .main-container > * {
@@ -63,7 +64,7 @@ button {
   align-items: center;
   justify-items: center;
   background-color: #222;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   padding: .25em;
 }
 
@@ -106,13 +107,13 @@ button {
   grid-row: 1 / 2;
   background: url(./data/assets/arrleft.svg) no-repeat center/cover;
   justify-self: end;
-  margin-right: 1em;
+  margin-right: .5em;
 }
 #nextDept {
   grid-column: 3 / 4;
   background: url(./data/assets/arrright.svg) no-repeat center/cover;
   justify-self: start;
-  margin-left: 1em;
+  margin-left: .5em;
 }
 
 #header button:hover {

@@ -96,6 +96,7 @@ button {
 #header button span {
   position: absolute;
   top: -999px;
+  left: 0;
   width: 0;
   height: 0;
   opacity: 0;

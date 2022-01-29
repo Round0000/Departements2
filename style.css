@@ -12,10 +12,6 @@ body {
   overflow-x: hidden;
 }
 
-body, html {
-  scroll-behavior: smooth;
-}
-
 .dnone {
   display: none !important;
 }
@@ -41,7 +37,7 @@ body, html {
   outline: 1px solid snow;
   outline-offset: 3px;
   width: 90%;
-  padding: calc(.5em + 2vw);
+  padding: calc(0.5em + 2vw);
   min-width: 300px;
   height: max-content;
 }
@@ -65,7 +61,7 @@ button {
   justify-items: center;
   background-color: #222;
   font-size: 1.2rem;
-  padding: .25em;
+  padding: 0.25em;
 }
 
 #header * {
@@ -74,7 +70,7 @@ button {
 
 #header input {
   display: block;
-  margin: .5em auto;
+  margin: 0.5em auto;
   padding: 0.25em 0.4em;
   grid-column: 2 / 3;
   width: 20em;
@@ -88,7 +84,7 @@ button {
   background-color: snow;
   border-radius: 100%;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   outline: 3px solid transparent;
   outline-offset: -1px;
   position: relative;
@@ -107,13 +103,13 @@ button {
   grid-row: 1 / 2;
   background: url(./data/assets/arrleft.svg) no-repeat center/cover;
   justify-self: end;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 #nextDept {
   grid-column: 3 / 4;
   background: url(./data/assets/arrright.svg) no-repeat center/cover;
   justify-self: start;
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 #header button:hover {
@@ -211,9 +207,9 @@ button {
   margin-top: 1em;
   grid-column: 1 / -1;
   display: grid;
-  gap: .5em;
+  gap: 0.5em;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  transition: opacity .7s;
+  transition: opacity 0.7s;
 }
 
 .map {
@@ -231,7 +227,7 @@ button {
   outline: 1px solid #222;
   outline-offset: -1px;
   position: relative;
-  transition: opacity .7s;
+  transition: opacity 0.7s;
 }
 
 .gallery figure img {
@@ -250,7 +246,7 @@ button {
   text-align: center;
   background-color: #fffd;
   opacity: 0;
-  transition: all .3s;
+  transition: all 0.3s;
   padding: 1em;
   font-size: 1.2rem;
 }
@@ -263,9 +259,9 @@ button {
 #backToTop {
   display: block;
   margin: 1em auto;
-  padding: .5em .75em;
+  padding: 0.5em 0.75em;
   width: max-content;
   color: snow;
   font-weight: lighter;
-  text-underline-offset: .1em;
+  text-underline-offset: 0.1em;
 }

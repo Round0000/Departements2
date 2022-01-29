@@ -664,11 +664,11 @@
       "chef_lieu": "Agen",
       "villes": ["Marmande", "Villeneuve-sur-Lot", "Nérac"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Agen" },
+        { "number": "2", "caption": "Château et jardins de Marmande" },
+        { "number": "3", "caption": "Église Sainte-Catherine de Villeneuve-sur-Lot" },
+        { "number": "4", "caption": "Nérac" },
+        { "number": "5", "caption": "Monflanquin" }
       ]
     },
     {
@@ -678,11 +678,11 @@
       "chef_lieu": "Mende",
       "villes": ["Florac Trois Rivières"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Mende" },
+        { "number": "2", "caption": "Saint-Chély-du-Tarn" },
+        { "number": "3", "caption": "Cité médiévale de Sainte-Énimie" },
+        { "number": "4", "caption": "Corniche des Cévennes" },
+        { "number": "5", "caption": "L'observatoire du Mont Aigoual" }
       ]
     },
     {
@@ -692,11 +692,11 @@
       "chef_lieu": "Angers",
       "villes": ["Cholet", "Saumur", "Segré-en-Anjou Bleu"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Angers" },
+        { "number": "2", "caption": "Cholet" },
+        { "number": "3", "caption": "Saumur" },
+        { "number": "4", "caption": "Segré-en-Anjou Bleu" },
+        { "number": "5", "caption": "Béhuard" }
       ]
     },
     {
@@ -706,11 +706,11 @@
       "chef_lieu": "Saint-Lô",
       "villes": ["Avranches", "Cherbourg-en-Cotentin", "Coutances"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Saint-Lô" },
+        { "number": "2", "caption": "Le Mont-Saint-Michel" },
+        { "number": "3", "caption": "Cherbourg-en-Cotentin" },
+        { "number": "4", "caption": "Coutances" },
+        { "number": "5", "caption": "Saint-Vaast-la-Hougue" }
       ]
     },
     {
@@ -720,11 +720,11 @@
       "chef_lieu": "Châlons-en-Champagne",
       "villes": ["Épernay", "Reims", "Vitry-le-François"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Collégiale Notre-Dame-en-Vaux de Châlons-en-Champagne" },
+        { "number": "2", "caption": "Épernay" },
+        { "number": "3", "caption": "Reims" },
+        { "number": "4", "caption": "Le mémorial des batailles de la Marne à Dormans" },
+        { "number": "5", "caption": "Vallée de la Marne, Hautvillers" }
       ]
     },
     {
@@ -734,11 +734,11 @@
       "chef_lieu": "Chaumont",
       "villes": ["Langres", "Saint-Dizier"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Colombey-les-Deux-Églises" },
+        { "number": "2", "caption": "Viaduc de Chaumont" },
+        { "number": "3", "caption": "Langres" },
+        { "number": "4", "caption": "Joinville" },
+        { "number": "5", "caption": "Châteauvillain" }
       ]
     },
     {

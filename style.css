@@ -9,6 +9,7 @@
 body {
   font-family: "Atkinson Hyperlegible", Tahoma, sans-serif;
   background-color: #000;
+  overflow-x: hidden;
 }
 
 body, html {
@@ -39,6 +40,9 @@ body, html {
   background-color: snow;
   outline: 1px solid snow;
   outline-offset: 3px;
+  width: 90%;
+  padding: calc(.5em + 2vw);
+  min-width: 300px;
 }
 
 .main-container > * {
@@ -153,7 +157,6 @@ button {
 }
 
 .deptContainer {
-  padding: calc(1em + 2vw);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -239,7 +242,7 @@ button {
 
 .gallery figcaption {
   position: absolute;
-  inset: 0;
+  inset: 1px;
   display: flex;
   justify-content: center;
   align-items: center;

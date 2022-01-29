@@ -11,14 +11,18 @@ body {
   background-color: #000;
 }
 
+body, html {
+  scroll-behavior: smooth;
+}
+
 .dnone {
   display: none !important;
 }
 
 .hidden {
-    transform: translateX(100%) !important;
-    height: 100vh;
-    opacity: 0;
+  transform: translateX(100%) !important;
+  height: 100vh;
+  opacity: 0;
 }
 
 .main-container {
@@ -30,8 +34,8 @@ body {
 }
 
 .main-container > * {
-    grid-column: 1;
-    grid-row: 1;
+  grid-column: 1;
+  grid-row: 1;
 }
 
 input,
@@ -76,7 +80,7 @@ input {
 
 #results {
   list-style: none;
-  transition: all .7s;
+  transition: all 0.7s;
 }
 
 #results li {
@@ -86,13 +90,13 @@ input {
   flex-wrap: wrap;
   min-width: 10em;
   margin: 0.5em;
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
 #results li:hover {
-    transform: translateX(1em);
-    background-color: pink;
-    cursor: pointer;
+  transform: translateX(0.5em);
+  background-color: pink;
+  cursor: pointer;
 }
 
 .result_numero {
@@ -107,7 +111,7 @@ input {
 
 /* Dept view */
 #deptView {
-    transition: all .7s;
+  transition: all 0.7s;
 }
 
 .deptContainer {
@@ -136,16 +140,6 @@ input {
   background-color: #fff5;
 }
 
-.map {
-  grid-column: 1 / 4;
-  grid-row: 5 / 6;
-  display: block;
-  margin-top: 1em;
-  border: 1px solid #222;
-  justify-self: center;
-  max-width: 100%;
-}
-
 .region {
   grid-column: 1 / 4;
   grid-row: 2 / 3;
@@ -169,4 +163,65 @@ input {
 .chef_lieu {
   background-color: #222;
   color: snow;
+}
+
+.gallery {
+  margin-top: 1em;
+  grid-column: 1 / -1;
+  display: grid;
+  gap: .5em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  /* grid-auto-rows: 300px; */
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.map {
+  grid-column: 1 / 2;
+  outline: 1px solid #222;
+  outline-offset: -1px;
+}
+
+.map img {
+  display: block;
+  width: 100%;
+}
+
+.gallery figure {
+  outline: 1px solid #222;
+  outline-offset: -1px;
+  position: relative;
+}
+
+.gallery figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery figcaption {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fffd;
+  opacity: 0;
+  transition: all .3s;
+  padding: 1em;
+}
+
+.gallery figure:hover figcaption {
+  opacity: 1;
+}
+
+/* Other */
+#backToTop {
+  display: block;
+  margin: 1em auto;
+  padding: .5em .75em;
+  width: max-content;
+  color: snow;
+  font-weight: lighter;
 }

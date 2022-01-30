@@ -1013,11 +1013,11 @@
       "chef_lieu": "Mâcon",
       "villes": ["Autun", "Chalon-sur-Saône", "Charolles", "Louhans"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Mâcon, place Genevès" },
+        { "number": "2", "caption": "Autun" },
+        { "number": "3", "caption": "Chalon-sur-Saône" },
+        { "number": "4", "caption": "Charolles" },
+        { "number": "5", "caption": "Roche de Solutré" }
       ]
     },
     {
@@ -1027,6 +1027,90 @@
       "chef_lieu": "Le Mans",
       "villes": ["La Flèche", "Mamers"],
       "images": [
+        { "number": "1", "caption": "Le Mans" },
+        { "number": "2", "caption": "La Flèche, hôtel de ville" },
+        { "number": "3", "caption": "Beaumont-sur-Sarthe" },
+        { "number": "4", "caption": "Sablé-sur-Sarthe" },
+        { "number": "5", "caption": "Sillé-le-Guillaume" }
+      ]
+    },
+    {
+      "numero": 73,
+      "departement": "Savoie",
+      "region": "Auvergne-Rhône-Alpes",
+      "chef_lieu": "Chambéry",
+      "villes": ["Albertville", "Saint-Jean-de-Maurienne"],
+      "images": [
+        { "number": "1", "caption": "Chambéry" },
+        { "number": "2", "caption": "Albertville" },
+        { "number": "3", "caption": "Lac de Tignes" },
+        { "number": "4", "caption": "Aix-les-Bains" },
+        { "number": "5", "caption": "Chanaz" }
+      ]
+    },
+    {
+      "numero": 74,
+      "departement": "Haute-Savoie",
+      "region": "Auvergne-Rhône-Alpes",
+      "chef_lieu": "Annecy",
+      "villes": ["Bonneville", "Saint-Julien-en-Genevois", "Thonon-les-Bains"],
+      "images": [
+        { "number": "1", "caption": "Annecy" },
+        { "number": "2", "caption": "Chamonix" },
+        { "number": "3", "caption": "Yvoire" },
+        { "number": "4", "caption": "Le Grand-Bornand" },
+        { "number": "5", "caption": "Le cirque du Fer-à-Cheval" }
+      ]
+    },
+    {
+      "numero": 75,
+      "departement": "Paris",
+      "region": "Île-de-France",
+      "chef_lieu": "Paris",
+      "villes": [],
+      "images": [
+        { "number": "1", "caption": "Cathédrale Notre-Dame de Paris" },
+        { "number": "2", "caption": "La Basilique du Sacré-Cœur" },
+        { "number": "3", "caption": "Musée du Louvre" },
+        { "number": "4", "caption": "Centre Pompidou et son parvis" },
+        { "number": "5", "caption": "Vue de Paris avec la Tour Eiffel" }
+      ]
+    },
+    {
+      "numero": 76,
+      "departement": "Seine-Maritime",
+      "region": "Normandie",
+      "chef_lieu": "Rouen",
+      "villes": ["Dieppe", "Le Havre"],
+      "images": [
+        { "number": "1", "caption": "Rouen" },
+        { "number": "2", "caption": "Dieppe" },
+        { "number": "3", "caption": "Le Havre" },
+        { "number": "4", "caption": "Étretat" },
+        { "number": "5", "caption": "Veules-les-Roses" }
+      ]
+    },
+    {
+      "numero": 77,
+      "departement": "Seine-et-Marne",
+      "region": "Île-de-France",
+      "chef_lieu": "Melun",
+      "villes": ["Fontainebleau", "Meaux", "Provins", "Torcy"],
+      "images": [
+        { "number": "1", "caption": "Melun" },
+        { "number": "2", "caption": "Les sables du Massif des Trois Pignons, Fontainebleau" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
+    },
+    {
+      "numero": 78,
+      "departement": "Yvelines",
+      "region": "Île-de-France",
+      "chef_lieu": "Versailles",
+      "villes": ["Mantes-la-Jolie", "Rambouillet", "Saint-Germain-en-Laye"],
+      "images": [
         { "number": "1", "caption": "xxxxxxxxxxx" },
         { "number": "2", "caption": "xxxxxxxxxxx" },
         { "number": "3", "caption": "xxxxxxxxxxx" },
@@ -1035,199 +1119,311 @@
       ]
     },
     {
-      "numero": 73,
-      "departement": "Savoie",
-      "region": "Auvergne-Rhône-Alpes",
-      "chef_lieu": "Chambéry",
-      "villes": ["Albertville", "Saint-Jean-de-Maurienne"]
-    },
-    {
-      "numero": 74,
-      "departement": "Haute-Savoie",
-      "region": "Auvergne-Rhône-Alpes",
-      "chef_lieu": "Annecy",
-      "villes": ["Bonneville", "Saint-Julien-en-Genevois", "Thonon-les-Bains"]
-    },
-    {
-      "numero": 75,
-      "departement": "Paris",
-      "region": "Île-de-France",
-      "chef_lieu": "Paris",
-      "villes": []
-    },
-    {
-      "numero": 76,
-      "departement": "Seine-Maritime",
-      "region": "Normandie",
-      "chef_lieu": "Rouen",
-      "villes": ["Dieppe", "Le Havre"]
-    },
-    {
-      "numero": 77,
-      "departement": "Seine-et-Marne",
-      "region": "Île-de-France",
-      "chef_lieu": "Melun",
-      "villes": ["Fontainebleau", "Meaux", "Provins", "Torcy"]
-    },
-    {
-      "numero": 78,
-      "departement": "Yvelines",
-      "region": "Île-de-France",
-      "chef_lieu": "Versailles",
-      "villes": ["Mantes-la-Jolie", "Rambouillet", "Saint-Germain-en-Laye"]
-    },
-    {
       "numero": 79,
       "departement": "Deux-Sèvres",
       "region": "Nouvelle-Aquitaine",
       "chef_lieu": "Niort",
-      "villes": ["Bressuire", "Parthenay"]
+      "villes": ["Bressuire", "Parthenay"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 80,
       "departement": "Somme",
       "region": "Hauts-de-France",
       "chef_lieu": "Amiens",
-      "villes": ["Abbeville", "Montdidier", "Péronne"]
+      "villes": ["Abbeville", "Montdidier", "Péronne"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 81,
       "departement": "Tarn",
       "region": "Occitanie",
       "chef_lieu": "Albi",
-      "villes": ["Castres"]
+      "villes": ["Castres"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 82,
       "departement": "Tarn-et-Garonne",
       "region": "Occitanie",
       "chef_lieu": "Montauban",
-      "villes": ["Castelsarrasin"]
+      "villes": ["Castelsarrasin"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 83,
       "departement": "Var",
       "region": "Provence-Alpes-Côte d'Azur",
       "chef_lieu": "Toulon",
-      "villes": ["Brignoles", "Draguignan"]
+      "villes": ["Brignoles", "Draguignan"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 84,
       "departement": "Vaucluse",
       "region": "Provence-Alpes-Côte d'Azur",
       "chef_lieu": "Avignon",
-      "villes": ["Apt", "Carpentras"]
+      "villes": ["Apt", "Carpentras"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 85,
       "departement": "Vendée",
       "region": "Pays de la Loire",
       "chef_lieu": "La Roche-sur-Yon",
-      "villes": ["Les Sables-d'Olonne", "Fontenay-le-Comte"]
+      "villes": ["Les Sables-d'Olonne", "Fontenay-le-Comte"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 86,
       "departement": "Vienne",
       "region": "Nouvelle-Aquitaine",
       "chef_lieu": "Poitiers",
-      "villes": ["Châtellerault", "Montmorillon"]
+      "villes": ["Châtellerault", "Montmorillon"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 87,
       "departement": "Haute-Vienne",
       "region": "Nouvelle-Aquitaine",
       "chef_lieu": "Limoges",
-      "villes": ["Bellac", "Rochechouart"]
+      "villes": ["Bellac", "Rochechouart"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 88,
       "departement": "Vosges",
       "region": "Grand Est",
       "chef_lieu": "Épinal",
-      "villes": ["Neufchâteau", "Saint-Dié-des-Vosges"]
+      "villes": ["Neufchâteau", "Saint-Dié-des-Vosges"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 89,
       "departement": "Yonne",
       "region": "Bourgogne-Franche-Comté",
       "chef_lieu": "Auxerre",
-      "villes": ["Avallon", "Sens"]
+      "villes": ["Avallon", "Sens"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 90,
       "departement": "Territoire de Belfort",
       "region": "Bourgogne-Franche-Comté",
       "chef_lieu": "Belfort",
-      "villes": []
+      "villes": [],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 91,
       "departement": "Essonne",
       "region": "Île-de-France",
       "chef_lieu": "Évry-Courcouronnes",
-      "villes": ["Étampes", "Palaiseau"]
+      "villes": ["Étampes", "Palaiseau"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 92,
       "departement": "Hauts-de-Seine",
       "region": "Île-de-France",
       "chef_lieu": "Nanterre",
-      "villes": ["Antony", "Boulogne-Billancourt"]
+      "villes": ["Antony", "Boulogne-Billancourt"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 93,
       "departement": "Seine-Saint-Denis",
       "region": "Île-de-France",
       "chef_lieu": "Bobigny",
-      "villes": ["Le Raincy", "Saint-Denis"]
+      "villes": ["Le Raincy", "Saint-Denis"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 94,
       "departement": "Val-de-Marne",
       "region": "Île-de-France",
       "chef_lieu": "Créteil",
-      "villes": ["L'Haÿ-les-Roses", "Nogent-sur-Marne"]
+      "villes": ["L'Haÿ-les-Roses", "Nogent-sur-Marne"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 95,
       "departement": "Val-d'Oise",
       "region": "Île-de-France",
       "chef_lieu": "Cergy",
-      "villes": ["Argenteuil", "Sarcelles"]
+      "villes": ["Argenteuil", "Sarcelles"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 971,
       "departement": "Guadeloupe",
       "region": "Guadeloupe",
       "chef_lieu": "Basse-Terre",
-      "villes": ["Pointe-à-Pitre"]
+      "villes": ["Pointe-à-Pitre"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 972,
       "departement": "Martinique",
       "region": "Martinique",
       "chef_lieu": "Fort-de-France",
-      "villes": ["Le Marin", "Saint-Pierre", "La Trinité"]
+      "villes": ["Le Marin", "Saint-Pierre", "La Trinité"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 973,
       "departement": "Guyane",
       "region": "Guyane",
       "chef_lieu": "Cayenne",
-      "villes": ["Saint-Laurent-du-Maroni"]
+      "villes": ["Saint-Laurent-du-Maroni"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 974,
       "departement": "La Réunion",
       "region": "La Réunion",
       "chef_lieu": "Saint-Denis",
-      "villes": ["Saint-Benoît", "Saint-Paul", "Saint-Pierre"]
+      "villes": ["Saint-Benoît", "Saint-Paul", "Saint-Pierre"],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     },
     {
       "numero": 976,
       "departement": "Mayotte",
       "region": "Mayotte",
       "chef_lieu": "Mamoudzou",
-      "villes": []
+      "villes": [],
+      "images": [
+        { "number": "1", "caption": "xxxxxxxxxxx" },
+        { "number": "2", "caption": "xxxxxxxxxxx" },
+        { "number": "3", "caption": "xxxxxxxxxxx" },
+        { "number": "4", "caption": "xxxxxxxxxxx" },
+        { "number": "5", "caption": "xxxxxxxxxxx" }
+      ]
     }
   ]

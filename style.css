@@ -142,7 +142,7 @@ button {
   display: grid;
   grid-template-columns: auto 1fr;
   min-width: 10em;
-  margin: 0.5em;
+  margin-bottom: 0.5em;
   transition: all 0.3s;
 }
 

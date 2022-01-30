@@ -38,6 +38,11 @@ function getResults(q) {
 function displayResults(results) {
   uiResults.innerHTML = "";
 
+  if (results.length === 0) {
+    uiResults.innerText = "Aucun résultat...";
+    return;
+  }
+
   results.forEach((res) => {
     const li = document.createElement("LI");
     li.dataset.index = data.indexOf(res);
@@ -153,6 +158,6 @@ uiGetRandomBtn.addEventListener("click", (e) => {
   displayDept(data[r], r);
 });
 
-uiBackToIndexBtn.addEventListener('click', e => {
-    displayResults(getResults(""));
-})
+uiBackToIndexBtn.addEventListener("click", (e) => {
+  displayResults(getResults(""));
+});

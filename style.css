@@ -80,7 +80,7 @@ button {
   max-width: 60vw;
 }
 
-#header button {
+#header .circleBtn {
   width: 2.25em;
   height: 2.25em;
   border: none;
@@ -93,7 +93,7 @@ button {
   position: relative;
 }
 
-#header button span {
+#header .circleBtn span {
   position: absolute;
   top: -999px;
   left: 0;
@@ -117,9 +117,29 @@ button {
   margin-left: 0.5em;
 }
 
-#header button:hover {
+.circleBtn:hover {
   outline-color: snow;
 }
+
+.soberBtns {
+  display: flex;
+  margin: .25em auto .75em;
+  width: max-content;
+  grid-column: 1 / -1;
+  gap: 1em;
+}
+
+#header .soberBtn {
+  font-size: 1rem;
+  padding: .25em .5em .1em;
+  background-color: transparent;
+  color: snow;
+  border: none;
+  border-bottom: 2px solid snow;
+  cursor: pointer;
+}
+
+/* Results */
 
 #results {
   list-style: none;
@@ -236,6 +256,8 @@ button {
 .map img {
   display: block;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .gallery figure {
@@ -243,7 +265,7 @@ button {
   outline-offset: -1px;
   position: relative;
   transition: opacity 0.7s;
-  min-height: 250px;
+  min-height: 230px;
 }
 
 .gallery figure img {

@@ -4,6 +4,10 @@ const uiUserInput = document.getElementById("userInput");
 const uiResults = document.getElementById("results");
 const uiDeptView = document.getElementById("deptView");
 const uiGal = uiDeptView.querySelector(".gallery");
+const uiPrevDeptBtn = document.getElementById("previousDept");
+const uiNextDeptBtn = document.getElementById("nextDept");
+const uiGetRandomBtn = document.getElementById("getRandomDept");
+const uiBackToIndexBtn = document.getElementById("backToIndex");
 
 fetch("./data/departements.json")
   .then((response) => response.json())
@@ -120,9 +124,6 @@ uiResults.addEventListener("click", (e) => {
   }
 });
 
-const uiPrevDeptBtn = document.getElementById("previousDept");
-const uiNextDeptBtn = document.getElementById("nextDept");
-
 uiPrevDeptBtn.addEventListener("click", (e) => {
   const newIndex = uiDeptView.dataset.index - 1;
 
@@ -139,4 +140,19 @@ uiNextDeptBtn.addEventListener("click", (e) => {
   displayDept(data[newIndex], newIndex);
 });
 
-// Initial display
+// Get Random
+function getRandom(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+uiGetRandomBtn.addEventListener("click", (e) => {
+  const r = getRandom(0, data.length - 1);
+
+  displayDept(data[r], r);
+});
+
+uiBackToIndexBtn.addEventListener('click', e => {
+    displayResults(getResults(""));
+})

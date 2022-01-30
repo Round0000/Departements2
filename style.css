@@ -40,7 +40,7 @@ body {
   outline: 1px solid snow;
   outline-offset: 5px;
   width: 90%;
-  padding: calc(0.25em + 4vw);
+  padding: calc(0.5em + 1vw);
   min-width: 300px;
   height: max-content;
 }

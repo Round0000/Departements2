@@ -1099,9 +1099,9 @@
       "images": [
         { "number": "1", "caption": "Melun" },
         { "number": "2", "caption": "Les sables du Massif des Trois Pignons, Fontainebleau" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "3", "caption": "Meaux" },
+        { "number": "4", "caption": "Provins" },
+        { "number": "5", "caption": "Barbizon" }
       ]
     },
     {
@@ -1111,11 +1111,11 @@
       "chef_lieu": "Versailles",
       "villes": ["Mantes-la-Jolie", "Rambouillet", "Saint-Germain-en-Laye"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Versailles" },
+        { "number": "2", "caption": "Saint-Germain-en-Laye" },
+        { "number": "3", "caption": "Château de Rambouillet" },
+        { "number": "4", "caption": "Conflans-Sainte-Honorine" },
+        { "number": "5", "caption": "Château de La Madeleine, dans la vallée de la Chevreuse" }
       ]
     },
     {
@@ -1125,11 +1125,11 @@
       "chef_lieu": "Niort",
       "villes": ["Bressuire", "Parthenay"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Niort" },
+        { "number": "2", "caption": "Château de Bressuire" },
+        { "number": "3", "caption": "Parthenay" },
+        { "number": "4", "caption": "Le Marais poitevin" },
+        { "number": "5", "caption": "Mauléon" }
       ]
     },
     {
@@ -1139,11 +1139,11 @@
       "chef_lieu": "Amiens",
       "villes": ["Abbeville", "Montdidier", "Péronne"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Amiens" },
+        { "number": "2", "caption": "Abbeville" },
+        { "number": "3", "caption": "Saint-Valery-sur-Somme" },
+        { "number": "4", "caption": "Le Crotoy et la baie de Somme" },
+        { "number": "5", "caption": "Gerberoy" }
       ]
     },
     {
@@ -1153,11 +1153,11 @@
       "chef_lieu": "Albi",
       "villes": ["Castres"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Albi" },
+        { "number": "2", "caption": "Castres" },
+        { "number": "3", "caption": "Cordes-sur-ciel" },
+        { "number": "4", "caption": "Gaillac" },
+        { "number": "5", "caption": "La presqu’île d’Ambialet" }
       ]
     },
     {
@@ -1167,11 +1167,11 @@
       "chef_lieu": "Montauban",
       "villes": ["Castelsarrasin"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Montauban" },
+        { "number": "2", "caption": "Castelsarrasin" },
+        { "number": "3", "caption": "Moissac" },
+        { "number": "4", "caption": "Bruniquel" },
+        { "number": "5", "caption": "Saint-Antonin-Noble-Val" }
       ]
     },
     {
@@ -1181,11 +1181,11 @@
       "chef_lieu": "Toulon",
       "villes": ["Brignoles", "Draguignan"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Toulon" },
+        { "number": "2", "caption": "Brignoles" },
+        { "number": "3", "caption": "Draguignan" },
+        { "number": "4", "caption": "Saint-Tropez" },
+        { "number": "5", "caption": "Île de Porquerolles" }
       ]
     },
     {
@@ -1195,11 +1195,11 @@
       "chef_lieu": "Avignon",
       "villes": ["Apt", "Carpentras"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Avignon" },
+        { "number": "2", "caption": "Carpentras" },
+        { "number": "3", "caption": "Le théâtre antique d’Orange" },
+        { "number": "4", "caption": "Gordes" },
+        { "number": "5", "caption": "L’abbaye de Sénanque" }
       ]
     },
     {
@@ -1209,11 +1209,11 @@
       "chef_lieu": "La Roche-sur-Yon",
       "villes": ["Les Sables-d'Olonne", "Fontenay-le-Comte"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "La Roche-sur-Yon" },
+        { "number": "2", "caption": "Les Sables-d'Olonne" },
+        { "number": "3", "caption": "Fontenay-le-Comte" },
+        { "number": "4", "caption": "L’île de Noirmoutier" },
+        { "number": "5", "caption": "Les marais salants" }
       ]
     },
     {
@@ -1223,11 +1223,11 @@
       "chef_lieu": "Poitiers",
       "villes": ["Châtellerault", "Montmorillon"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Poitiers" },
+        { "number": "2", "caption": "Châtellerault" },
+        { "number": "3", "caption": "Montmorillon" },
+        { "number": "4", "caption": "Chasseneuil-du-Poitou" },
+        { "number": "5", "caption": "Château de la Mothe-Chandeniers" }
       ]
     },
     {
@@ -1237,11 +1237,11 @@
       "chef_lieu": "Limoges",
       "villes": ["Bellac", "Rochechouart"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Limoges" },
+        { "number": "2", "caption": "Bellac" },
+        { "number": "3", "caption": "Lac de Vassivière" },
+        { "number": "4", "caption": "Oradour-sur-Glane" },
+        { "number": "5", "caption": "Mortemart" }
       ]
     },
     {
@@ -1251,11 +1251,11 @@
       "chef_lieu": "Épinal",
       "villes": ["Neufchâteau", "Saint-Dié-des-Vosges"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Épinal" },
+        { "number": "2", "caption": "Gérardmer" },
+        { "number": "3", "caption": "Saint-Dié-des-Vosges" },
+        { "number": "4", "caption": "Lac des Corbeaux" },
+        { "number": "5", "caption": "Le Hohneck" }
       ]
     },
     {
@@ -1265,11 +1265,11 @@
       "chef_lieu": "Auxerre",
       "villes": ["Avallon", "Sens"],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Auxerre" },
+        { "number": "2", "caption": "Avallon" },
+        { "number": "3", "caption": "Sens" },
+        { "number": "4", "caption": "Château de Guédelon" },
+        { "number": "5", "caption": "Vézelay" }
       ]
     },
     {
@@ -1279,11 +1279,11 @@
       "chef_lieu": "Belfort",
       "villes": [],
       "images": [
-        { "number": "1", "caption": "xxxxxxxxxxx" },
-        { "number": "2", "caption": "xxxxxxxxxxx" },
-        { "number": "3", "caption": "xxxxxxxxxxx" },
-        { "number": "4", "caption": "xxxxxxxxxxx" },
-        { "number": "5", "caption": "xxxxxxxxxxx" }
+        { "number": "1", "caption": "Belfort, vieille ville" },
+        { "number": "2", "caption": "Citadelle de Belfort" },
+        { "number": "3", "caption": "Le lac du Malsaucy" },
+        { "number": "4", "caption": "Belfort, vue aérienne" },
+        { "number": "5", "caption": "Étang des Forges" }
       ]
     },
     {

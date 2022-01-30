@@ -40,7 +40,7 @@ body {
   outline: 1px solid snow;
   outline-offset: 5px;
   width: 90%;
-  padding: calc(0.5em + 2vw);
+  padding: calc(0.25em + 2vw);
   min-width: 300px;
   height: max-content;
 }
@@ -64,7 +64,7 @@ button {
   justify-items: center;
   background-color: #111;
   font-size: 1.2rem;
-  padding: 0.25em;
+  padding: 0.5em;
 }
 
 #header * {
@@ -93,16 +93,6 @@ button {
   position: relative;
 }
 
-#header .circleBtn span {
-  position: absolute;
-  top: -999px;
-  left: 0;
-  width: 0;
-  height: 0;
-  opacity: 0;
-  user-select: none;
-}
-
 #previousDept {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -123,7 +113,7 @@ button {
 
 .soberBtns {
   display: flex;
-  margin: .25em auto .75em;
+  margin: 0.25em auto 0.75em;
   width: max-content;
   grid-column: 1 / -1;
   gap: 1em;
@@ -131,7 +121,7 @@ button {
 
 #header .soberBtn {
   font-size: 1rem;
-  padding: .25em .5em .1em;
+  padding: 0.25em 0.5em 0.1em;
   background-color: transparent;
   color: snow;
   border: none;

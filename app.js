@@ -26,7 +26,12 @@ function getResults(q) {
       item.numero.toString().toUpperCase().includes(q) ||
       item.departement.toUpperCase().includes(q) ||
       item.region.toUpperCase().includes(q) ||
-      item.chef_lieu.toUpperCase().includes(q)
+      item.chef_lieu.toUpperCase().includes(q) ||
+      item.departement.toUpperCase().replaceAll("-", " ").includes(q) ||
+      item.region.toUpperCase().replaceAll("-", " ").includes(q) ||
+      item.chef_lieu.toUpperCase().replaceAll("-", " ").includes(q) ||
+      item.villes.join(" ").toUpperCase().includes(q) ||
+      item.villes.join(" ").toUpperCase().replaceAll("-", " ").includes(q)
     ) {
       results.push(item);
     }
@@ -54,6 +59,12 @@ function displayResults(results) {
     `;
 
     uiResults.appendChild(li);
+
+    li.addEventListener("keyup", (e) => {
+      if (e.key === "Enter") {
+        displayDept(res, data.indexOf(res));
+      }
+    });
 
     uiDeptView.classList.add("hidden");
     uiResults.classList.remove("dnone");
@@ -160,4 +171,10 @@ uiGetRandomBtn.addEventListener("click", (e) => {
 
 uiBackToIndexBtn.addEventListener("click", (e) => {
   displayResults(getResults(""));
+});
+
+document.addEventListener("keyup", (e) => {
+  if (e.key === "Escape" && uiResults.classList.contains("hidden")) {
+    displayResults(getResults(uiUserInput.value));
+  }
 });

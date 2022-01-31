@@ -255,7 +255,6 @@ button {
   outline-offset: -1px;
   position: relative;
   transition: opacity 0.7s;
-  min-height: 230px;
 }
 
 .gallery figure img {

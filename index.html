@@ -9,13 +9,18 @@
   </head>
   <body>
     <header id="header">
-        <input type="text" id="userInput" />
-        <button class="circleBtn" id="previousDept"></button>
-        <button class="circleBtn" id="nextDept"></button>
-        <div class="soberBtns">
-            <button class="soberBtn" id="backToIndex">Retour à la liste</button>
-        <button class="soberBtn" id="getRandomDept">Département au hasard</button>
-        </div>
+      <input type="text" id="userInput" />
+      <button class="circleBtn" id="previousDept"></button>
+      <button class="circleBtn" id="nextDept"></button>
+      <div class="soberBtns">
+        <button class="soberBtn" id="backToIndex">Liste</button>
+        <button class="soberBtn" id="getRandomDept">
+          Hasard
+        </button>
+        <button class="soberBtn" id="toggleQuizMode">
+          Quiz
+        </button>
+      </div>
     </header>
 
     <div class="main-container">
@@ -23,10 +28,10 @@
 
       <div id="deptView" class="hidden">
         <div class="deptContainer">
-          <h1 class="departement"></h1>
-          <p class="numero"></p>
-          <p class="region"></p>
-          <div class="villes">
+          <h1 class="departement" data-element="Nom du département"></h1>
+          <p class="numero" data-element="Numéro"></p>
+          <p class="region" data-element="Région"></p>
+          <div class="villes" data-element="Villes">
             <p class="ville chef_lieu"></p>
           </div>
           <div class="gallery invisible">
@@ -34,7 +39,6 @@
           </div>
         </div>
       </div>
-
     </div>
     <a href="#" id="backToTop">Retour en haut</a>
 

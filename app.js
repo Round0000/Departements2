@@ -214,6 +214,11 @@ toggleQuizMode.addEventListener("click", (e) => {
   if (quizMode) {
     toggleQuizMode.style.color = "orange";
   } else {
-    toggleQuizMode.style.color = "snow";
+    toggleQuizMode.style.color = "";
+    if (document.querySelector(".hiddenForGuess")) {
+        document
+          .querySelector(".hiddenForGuess")
+          .classList.remove("hiddenForGuess");
+      }
   }
 });
